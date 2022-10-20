@@ -31,7 +31,7 @@ eureka:
     prefer-ip-address: true #显示IP
   client:
     service-url:
-      defaultZone: http://localhost:2003/eureka ,http://localhost:2002/eureka,http://localhost:2001/eureka  #把服务注册到eureka注册中心
+      defaultZone: http://localhost:2004/eureka   #把服务注册到eureka注册中心
 
 info:
    groupId: $project.groupId$
