@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+name: et3-dev
+---
+spring:
+  profiles: test
+name: et3-test
